@@ -60,5 +60,5 @@ I love learning and creating solutions that make life easier for others. Additio
 - Building **FlexiPortfolio**: A project to help users create custom portfolios by combining various pre-designed sections.   <br>
 - Daily updates on **Enexcode** and publishing one blog post every week.   <br>
 - Launching **Enexly** in 2025: An e-commerce site for digital products. <br>
-# Coding is not just my profession; it's my passion to bring ideas to life.
+### Coding is not just my profession; it's my passion to bring ideas to life.
 <br clear="both">
