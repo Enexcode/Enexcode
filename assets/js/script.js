@@ -84,3 +84,28 @@ document.getElementById("video-thumbnail").addEventListener("click", function ()
       $(this).removeClass("hover");
     }
   );
+
+
+//   ==== Scroll And Navbar Fix Top 
+  const navbar = document.querySelector(".navbar");
+  let lastScrollTop = 0;
+
+  window.addEventListener("scroll", function () {
+    let scrollTop = window.scrollY;
+
+    if (scrollTop > 50) {
+      navbar.classList.add("fixed");
+
+      if (scrollTop > lastScrollTop) {
+        // scrolling down
+        navbar.classList.remove("show");
+      } else {
+        // scrolling up
+        navbar.classList.add("show");
+      }
+    } else {
+      navbar.classList.remove("fixed", "show");
+    }
+
+    lastScrollTop = scrollTop <= 0 ? 0 : scrollTop;
+  });
